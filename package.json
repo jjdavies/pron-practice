@@ -1,0 +1,16 @@
+{
+  "name": "pronpracticeapp",
+  "version": "1.0.0",
+  "description": "Run Full Stack Pron Practice APP",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run start --prefix pron-practice-client",
+    "server": "npm run start --prefix pron-practice-server",
+    "serve": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,7 @@
+\node_modules
+/pron-practice-client/.git
+/pron-practice-client/.gitignore
+/pron-practice-client/node_modules
+/pron-practice-server/.git
+/pron-practice-server/.gitignore
+/pron-practice-server/node_modules
